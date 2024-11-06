@@ -172,7 +172,7 @@ function textAnimationPage1p() {
 
     pTag.innerHTML = cruttle
 
-    gsap.from("p", {
+    gsap.from("#page1 p", {
         y:30,
         duration:2,
         delay: 1,
